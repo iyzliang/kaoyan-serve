@@ -1,0 +1,21 @@
+{
+  "name": "server-kaoyan",
+  "description": "考研统计项目",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.10",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development node app.js",
+    "start:prod": "NODE_ENV=production node app.js"
+  }
+}
